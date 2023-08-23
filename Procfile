@@ -1,1 +1,1 @@
-web:uvicorn src.app:app --host=127.0.0.1 --port=${PORT:5432}
+web:uvicorn src.app:app --host=0.0.0.0 --port=${PORT:8080}
