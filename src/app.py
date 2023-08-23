@@ -9,9 +9,9 @@ from fastapi.middleware.cors import CORSMiddleware
 models.Base.metadata.create_all(bind=engine)
 
 description = '''
-La Tiedita
+La Tiendita
 
-Developer Back-End 
+Back-End Developer  
 Winder Ricardo Delgado Pereira.
 '''
 
